@@ -1,9 +1,9 @@
 .breadCrumb
 {
         padding: 7px 5px;	
-	min-width: 500px;
-	white-space:nowrap;
-	overflow: hidden;
+		min-width: 500px;
+		white-space:nowrap;
+		overflow: hidden;
         background: #FFF;
         border-radius: 4px;
         width: 100%;
@@ -55,10 +55,10 @@
 .breadCrumb ul li:first-child a
 {
 	//height: 16px !important;
-	text-indent:-1000em;
+	//text-indent:-1000em;
 	//width:16px;
 	padding: 0;
-	margin-top: 2px;
+	//margin-top: 2px;
 	overflow: hidden;
 	//background:url(IconHome.gif) no-repeat 0 0;
 }

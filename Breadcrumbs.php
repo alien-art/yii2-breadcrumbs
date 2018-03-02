@@ -29,8 +29,7 @@ class Breadcrumbs extends yii\base\Widget
 		echo Html::beginTag($this->tagName,$this->htmlOptions)."\n";
 
 		if(isset($this->homeLink))
-                    echo '<li>'.Html::tag('i', Html::a(Yii::t('breadcrumbs', 'Home'),$this->homeLink), ['class' => 'home fa fa-home']).'</li>';
-                
+            echo '<li>'.Html::a(Html::tag('i', '', ['class' => 'home fa fa-home']),$this->homeLink).'</li>';
                 
 		foreach($this->links as $item)
                 {    
